@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/********* stylesheet starts here *********/
+
+/* global */
+
+body {
+  font-family: 'Typewriter';
+}
+
+h2 {
+  width: 450px;
+  font-size: 60px;
+  padding-top: 250px;
+  margin: auto;
+}
+
+.exercises, .projects {
+  padding-bottom: 120px;
+}
+
+ul li {
+  padding-top: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.projects li a img, .exercises li a img {
+  width: 200px;
+}
+
+/* header */
+
+header {
+  width: 1024px;
+  margin: auto;
+}
+
+header img {
+  width: 960px;
+}
+
+/* Projects */
+
+.projects {
+  width: 960px;
+  font-size: 50px;
+  margin: auto;
+}
+
+#clickme {
+	width: 150px;
+	left: 500px;
+	top: 800px;
+	position: relative;
+}
+
+#stickmanhandglide {
+	width: 150px;
+	right: -800px;
+	top: 600px;
+	position: relative;
+}
+
+#stickmanparachute {
+	width: 150px;
+	top: 550px;
+	left: -80px;
+	position: relative;
+}
+
+#stickman {
+  width: 80px;
+}
+
+#stickmansit {
+  width: 70px;
+  left: 155px;
+  top: 725px;
+  position: relative;
+}
+
+
+/* Exercises */
+
+#stickmancoffee {
+  width: 20%;
+  position: relative;
+  top: 330px;
+  left: 80px;
+}
+
+#stickmandiving {
+  width: 70px;
+  position: relative;
+  left: 400px;
+  top: 1030px;
+}
+
+#stickmandivingright {
+  width: 70px;
+  position: relative;
+  left: 680px;
+  top: 2000px;
+}
+
+#stickmantable {
+	width: 250px;
+	top: 1545px;
+	left: 80px;
+	position: relative;
+}
+
+#stickmandangle {
+	width: 125px;
+	top: 4813px;
+	left: -703px;
+	position: relative;
+}
+
+#stickmanclimb {
+	width: 100px;
+	position: relative;
+	top: 4395px;
+}
+
+#stickmanstretch {
+	width: 100px;
+	top: 3925px;
+	left: -360px;
+	position: relative;
+}
+
+#stickmanyoga {
+	width: 65px;
+	position: relative;
+	top: 5165px;
+	left: -110px;
+}
+
+.exercises {
+  width: 960px;
+  font-size: 50px;
+  margin: auto;
+}
+
+.f {
+  width: 100%;
+  position: relative;
+  top: 1000px;
+}
+
+#portallime {
+	padding-left: 20px;
+}
+
+/***** Footer *****/
+
+footer {
+	/*border: 1px solid #000;*/
+	padding-left: 500px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+footer p {
+	font-size: 24px;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+footer p a {
+	text-decoration: none;
+}
+
+/* font */
+
+@font-face {
+  font-family: 'Typewriter';
+  src: url('fonts/AmericanTypewriterRegular.ttf');
+}
